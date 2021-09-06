@@ -1,0 +1,53 @@
+
+ nav{
+    left: 0;
+    top:  0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(91, 119, 91);
+    padding: 50px;
+}
+button {
+    background-color: rgb(91, 119, 91);
+    border: none;
+    color: white;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(91, 119, 91);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+    }
+
+    footer img{
+        margin-right: 5px;
+        height: 25px;
+        width: 25px;
+    }
+    .about{
+       height: 300px;
+    }
+    .card{
+        height: 500px;
+    }
+    .lily {
+        float: right;
+        background-color: aqua;
+        margin: 10px;
+    }
+    .emily {
+        float: left;
+        background-color: yellow;
+        margin: 10px;
+    }
+    .tina{
+        float: right;
+        background-color: rgb(237, 159, 237);
+    }
+    
