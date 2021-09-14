@@ -1,0 +1,82 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(91, 119, 91);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+
+nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(91, 119, 91);
+    padding: 50px;
+}
+button {
+    background-color: rgb(91, 119, 91);
+    border: none;
+    color: white;
+}
+
+.discription{
+    background-color: aqua;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+h1{
+    text-align: center;
+}
+.hearing{
+    background-color: aqua;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 10px;
+}
+.fired{
+    background-color: rgb(237, 159, 237);
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 10px;
+}
+.birthday{
+    background-color: yellow;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 10px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(91, 119, 91);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+    }
+
+    footer img{
+        margin-right: 5px;
+        height: 25px;
+        width: 25px;
+    }
