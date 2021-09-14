@@ -1,5 +1,6 @@
 
  nav{
+   /* affects primary navigation  */
     left: 0;
     top:  0;
     width: 100%;
@@ -10,11 +11,13 @@
     padding: 50px;
 }
 button {
+  /* to blend with background  */
     background-color: rgb(91, 119, 91);
     border: none;
     color: white;
 }
 
+/* next bit affects the contact */
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -48,8 +51,9 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
-
+/* end contacts section  */
   .map{
+    /* gives room for the map  */
       margin: 10px;
   }
 

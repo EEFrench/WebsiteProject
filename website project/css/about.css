@@ -10,6 +10,7 @@
     padding: 50px;
 }
 button {
+        /* to make blend in  */
     background-color: rgb(91, 119, 91);
     border: none;
     color: white;
@@ -31,25 +32,29 @@ footer{
         width: 25px;
     }
     .about{
+        /* affects all character images  */
        height: 300px;
     }
     .card{
+        /* affects all character cards  */
         height: 750px;
         text-align: center;
         padding-right: 50px;
     }
     .lily {
-        /* float: right; */
+        /* affets only lils character*/
         text-align: center;
         background-color: aqua;
         margin: 10px;
     }
     .emily {
+        /* affects only ems character  */
         text-align: center;
         background-color: yellow;
         margin: 10px;
     }
     .tina{
+        /* affects only tina's character  */
         padding: 0px;
         text-align: center;
         background-color: rgb(237, 159, 237);

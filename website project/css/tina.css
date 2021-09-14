@@ -31,8 +31,10 @@ footer{
     }
 
     img{
+        /* affects all images of tina  */
         height: 400px;
     }
     body{
+        /* background of the entire page  */
         background-color: aqua;
     }

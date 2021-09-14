@@ -11,18 +11,21 @@ nav{
     padding: 50px;
 }
 button {
+    /* changed buttons to blend in  */
     background-color: rgb(91, 119, 91);
     border: none;
     color: white;
 }
 
 .discription{
+    /* combined with .lils to creat a full affect  */
     background-color: aqua;
     width: 50%;
     padding: 10px;
     margin-top: 10px;
 }
 .lils{
+    /* combined with discription to make a full affect */
     height: 190px;
     float: right;
     background-color: aqua;
@@ -31,6 +34,7 @@ button {
     margin-top: 10px;
 }
 .comic{
+    /* for the most recent commic */
     text-align: center;
     background-color: rgb(237, 159, 237);
     margin: 0px;
